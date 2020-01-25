@@ -6,18 +6,18 @@ The dataset can be downloaded from this [this link](https://drive.google.com/uc?
 ## Trimmed action recognition
 Implementation of RNNs for classification of a sequence of frames with a unique action (i.e. classification many-to-one).
 
->
-The achieved accuracy is
-0.47
->
+>> The achieved test accuracy 0.47
 
 ## Temporal action segmentation
 Given a full-length video, segment it recognising the different actions (i.e. classification many-to-many).
-<br><br>
+
+>> The achieved test accuracy 0.56
+
+
 Results for *continental breakfast* video, the first row represent the prediction, the second the ground truth.
 
 
 <p align="center">
-<img height = 600px, width=500px                   
-src=prediction.png>
+<img                
+src=prediciton.png>
 </p>
